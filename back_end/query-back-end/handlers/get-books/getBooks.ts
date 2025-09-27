@@ -1,37 +1,55 @@
-import type { Books, PrismaClient } from "@prisma/client";
+import type { PrismaClient } from "@prisma/client";
 import type { Request, Response } from "express";
 import { StatusCodes } from "http-status-codes";
 import pino from "pino";
 
+type GetBooksDataModel = {
+  bookId: string;
+  bookAuthor: string;
+  bookTitle: string;
+  bookImageUrl: string;
+};
+
 type GetBooksResponse = {
   statusCode: number;
-  data: Books[];
+  data: GetBooksDataModel[];
 };
 
 function generateGetBooksResponse(
   statusCode: number,
-  data: Books[]
+  data: GetBooksDataModel[]
 ): GetBooksResponse {
   return { statusCode: statusCode, data: data };
 }
 
 export default function getBooks(prismaClient: PrismaClient) {
   return async function (_req: Request, res: Response<GetBooksResponse>) {
+    let books: GetBooksDataModel[] = [];
+    let statusCode = StatusCodes.OK;
     const logger = pino({ name: "handlers/getBooks" });
     logger.info("processing getBooks request");
 
-    let books: Books[] = [];
-    let statusCode = StatusCodes.OK;
-
     try {
-      books = await prismaClient.books.findMany();
+      books = await prismaClient.books.findMany({
+        select: {
+          bookId: true,
+          bookAuthor: true,
+          bookTitle: true,
+          bookImageUrl: true,
+        },
+      });
     } catch (error: unknown) {
       logger.error("experienced error: " + error);
       statusCode = StatusCodes.INTERNAL_SERVER_ERROR;
     }
 
-    const getBooksResponse = generateGetBooksResponse(statusCode, books);
-    res.send(getBooksResponse);
-    logger.info("response sent successfully with length: " + books.length);
+    res.send(generateGetBooksResponse(statusCode, books));
+    if (statusCode == StatusCodes.OK) {
+      logger.info("response sent successfully");
+    } else {
+      logger.info(
+        "reponse was not sent successfully, status code: " + statusCode
+      );
+    }
   };
 }
