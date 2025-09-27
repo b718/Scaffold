@@ -1,8 +1,10 @@
 import startServer from "./server/server";
+import getDatabaseClient from "./database/createDatabaseClient";
 
 function main() {
   // start the server
-  startServer();
+  const primsaClient = getDatabaseClient();
+  startServer(primsaClient);
 }
 
 main();

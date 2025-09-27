@@ -6,10 +6,19 @@
 
 generator client {
   provider = "prisma-client-js"
-  output   = "../generated/prisma"
+  output   = "../node_modules/.prisma/client"
 }
 
 datasource db {
   provider = "postgresql"
   url      = env("DATABASE_URL")
+}
+
+model Books {
+  bookId          String   @id @default(uuid())
+  bookAuthor      String
+  bookChapters    String[]
+  bookTitle       String
+  bookPublishDate DateTime
+  bookImageUrl    String
 }
