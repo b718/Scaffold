@@ -2,6 +2,7 @@ import type { Response } from "express";
 import pino from "pino";
 
 type GetBooksResponse = {
+  bookId: string;
   bookAuthor: string;
   bookChapters: string[];
   bookTitle: string;
@@ -16,6 +17,7 @@ export default async function getBooks(res: Response<GetBooksResponse>) {
   logger.info("processing request");
 
   const getBooksResponse: GetBooksResponse = {
+    bookId: "1",
     bookAuthor: "Robert Kiyosaki",
     bookChapters: [
       "20 years ... 20/20 hindsight",
