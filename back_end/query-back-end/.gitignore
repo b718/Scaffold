@@ -2,3 +2,7 @@
 package-lock.json
 node_modules
 dist
+
+# Primsa
+/generated/prisma
+.env
