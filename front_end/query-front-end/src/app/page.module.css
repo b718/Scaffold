@@ -1,0 +1,35 @@
+/* Display Book Section */
+.DisplayBookContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  margin-top: 1rem;
+}
+
+/* Display Books Section */
+.DisplayBooksContainer {
+  display: flex;
+  column-gap: 3rem;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+  align-items: center;
+  justify-content: center;
+
+  margin-top: 10rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  margin-bottom: 5rem;
+}
+
+.DisplayBooksContainer:nth-child(1) {
+  justify-content: flex-start;
+}
+
+/* Page Section */
+.PageContainer {
+  max-width: fit-content;
+  margin: 0 auto;
+}
