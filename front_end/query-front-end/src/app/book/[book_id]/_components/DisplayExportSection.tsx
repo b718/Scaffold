@@ -13,8 +13,9 @@ const DisplayExportSection = () => {
     <div className={styles.DisplayExportContainer}>
       <text>Different Export Options</text>
       <div className={styles.ExportOptionsContainer}>
-        {exportImages.map((imageSrc) => (
+        {exportImages.map((imageSrc, index) => (
           <Image
+            key={index}
             src={imageSrc}
             alt={"notion export image"}
             width={50}

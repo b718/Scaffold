@@ -18,15 +18,12 @@ const DisplayBook: FC<DisplayBookProps> = ({
 }) => {
   const router = useRouter();
   const redirectToBookPage = () => {
-    const pageForCurrentBook = "book/" + bookId;
+    const pageForCurrentBook = "/book/" + bookId;
     router.push(pageForCurrentBook);
   };
 
   return (
-    <div
-      className={styles.DisplayBookContainer}
-      onClick={() => redirectToBookPage()}
-    >
+    <div className={styles.DisplayBookContainer} onClick={redirectToBookPage}>
       <Image
         src={bookImageUrl}
         alt={bookTitle + "picture"}

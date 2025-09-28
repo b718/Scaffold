@@ -1,7 +1,7 @@
 "use client";
 
 import { usePathname } from "next/navigation";
-import React, { useEffect, useMemo, useState } from "react";
+import React, { useEffect, useState } from "react";
 import fetchBook, { Book } from "./_utilites/fetchBook";
 import Image from "next/image";
 import styles from "./page.module.css";

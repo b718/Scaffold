@@ -8,6 +8,14 @@ interface DisplayBooksProps {
 }
 
 const DisplayBooks: FC<DisplayBooksProps> = ({ books }) => {
+  if (books.length == 0) {
+    return (
+      <div className={styles.DisplayBooksContainer}>
+        {"sadly we don't have this book yet :("}
+      </div>
+    );
+  }
+
   return (
     <div className={styles.DisplayBooksContainer}>
       {books.map((book) => (
