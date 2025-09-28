@@ -10,7 +10,7 @@ interface DisplayBooksProps {
 const DisplayBooks: FC<DisplayBooksProps> = ({ books }) => {
   if (books.length == 0) {
     return (
-      <div className={styles.DisplayBooksContainer}>
+      <div className={styles.DisplayBooksErrorContainer}>
         {"sadly we don't have this book yet :("}
       </div>
     );
