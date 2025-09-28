@@ -4,6 +4,7 @@ import { useEffect, useState } from "react";
 import fetchBooks, { Books } from "./_utilities/fetchBooks";
 import DisplayBooks from "./_components/DisplayBooks";
 import styles from "./page.module.css";
+import SearchBar from "./_components/SearchBar";
 
 export default function Home() {
   const [books, setBooks] = useState<Books[]>([]);
@@ -25,6 +26,7 @@ export default function Home() {
 
   return (
     <div className={styles.PageContainer}>
+      <SearchBar />
       <DisplayBooks books={books} />
     </div>
   );
