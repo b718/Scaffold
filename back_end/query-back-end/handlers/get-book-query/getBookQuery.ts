@@ -30,7 +30,7 @@ export default function getBookQuery(prismaClient: PrismaClient) {
     let bookQuery = req.params.bookQuery;
     const logger = pino({ name: "handlers/getBookQuery" });
     if (!bookQuery) {
-      logger.error("bookQuery is not valid");
+      logger.error(Error("bookQuery is not valid"));
       res.send(generateGetBookQueryResponse(StatusCodes.BAD_REQUEST, []));
       return;
     }
@@ -54,7 +54,7 @@ export default function getBookQuery(prismaClient: PrismaClient) {
       });
     } catch (error) {
       statusCode = StatusCodes.INTERNAL_SERVER_ERROR;
-      logger.error("experienced error: " + error);
+      logger.error(error, "experienced error");
     }
 
     res.send(generateGetBookQueryResponse(statusCode, books));

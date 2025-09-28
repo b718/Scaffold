@@ -39,7 +39,7 @@ export default function getBooks(prismaClient: PrismaClient) {
         },
       });
     } catch (error: unknown) {
-      logger.error("experienced error: " + error);
+      logger.error(error, "experienced error");
       statusCode = StatusCodes.INTERNAL_SERVER_ERROR;
     }
 
