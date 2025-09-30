@@ -1,3 +1,22 @@
+/* Display Book Chapters Section */
+.DisplayBookChaptersContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+
+  margin-top: 1rem;
+}
+
+/* Display Book Details Section */
+.DisplayBookDetailsContainer {
+  display: flex;
+  flex-direction: column;
+
+  margin-top: 1rem;
+}
+
 /* Display Export Section */
 .DisplayExportContainer {
   display: flex;
@@ -5,7 +24,76 @@
   justify-content: center;
   align-items: center;
 
-  margin-top: 5rem;
+  margin-top: 2rem;
+}
+
+.DisplayExportContainer > text {
+  margin-bottom: 1rem;
+}
+
+/* Export Modal Section */
+.ExportModalContainer {
+  position: fixed;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.45);
+  z-index: 20;
+}
+
+.ExportModalCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+
+  background-color: #ffffff;
+  border-radius: 0.75rem;
+  padding: 2rem;
+  box-shadow: 0 12px 40px rgba(15, 23, 42, 0.25);
+}
+
+.ExportModalCard > h2 {
+  text-transform: capitalize;
+}
+
+.ModalCloseButton {
+  padding: 0.5rem 1rem;
+  border-radius: 1rem;
+  background-color: #0f172a;
+
+  color: #ffffff;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+}
+
+.ModalCloseButton:hover {
+  background-color: #1e293b;
+}
+
+/* Export Section */
+.ExportContainer {
+  position: fixed;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 20;
+}
+
+.ExportContainer > h2 {
+  text-transform: capitalize;
+}
+
+.ExportCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
 }
 
 .ExportOptionsContainer {
@@ -22,5 +110,5 @@
   align-items: center;
   justify-content: center;
 
-  margin-top: 5rem;
+  margin-top: 3rem;
 }

@@ -6,7 +6,7 @@ export type Book = {
   bookAuthor: string;
   bookChapters: string[];
   bookTitle: string;
-  bookPublishDate: Date;
+  bookPublishDate: string;
   bookImageUrl: string;
 };
 
