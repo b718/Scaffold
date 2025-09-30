@@ -1,7 +1,7 @@
 export default function getServerUrl() {
-  if (process.env.DEV == "true" || !process.env.DEV) {
+  if (process.env.NEXT_PUBLIC_DEV == "true" || !process.env.NEXT_PUBLIC_DEV) {
     return "http://localhost:3001/";
   }
 
-  return process.env.SERVER_URL_PROD;
+  return process.env.NEXT_PUBLIC_SERVER_URL_PROD;
 }

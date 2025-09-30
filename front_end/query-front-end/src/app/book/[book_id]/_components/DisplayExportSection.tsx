@@ -1,13 +1,24 @@
-import React from "react";
+import React, { FC } from "react";
 import styles from "../page.module.css";
 import Image from "next/image";
 import notionImage from "../../../../../public/notion.png";
-import logseqImage from "../../../../../public/logseq.png";
 import obsidianImage from "../../../../../public/obsidian.png";
 import ankiImage from "../../../../../public/anki.png";
+import { useRouter } from "next/navigation";
 
-const DisplayExportSection = () => {
-  const exportImages = [notionImage, logseqImage, obsidianImage, ankiImage];
+interface DisplayExportSectionProps {
+  bookId: string;
+}
+
+const DisplayExportSection: FC<DisplayExportSectionProps> = ({ bookId }) => {
+  const exportImages = [notionImage, obsidianImage, ankiImage];
+  const exportType = ["notion", "obsidian", "anki"];
+  const router = useRouter();
+  const redirectToExportPage = (exportTypeIndex: number) => {
+    const pageForExportType =
+      "/book/" + bookId + "/export/" + exportType[exportTypeIndex];
+    router.push(pageForExportType);
+  };
 
   return (
     <div className={styles.DisplayExportContainer}>
@@ -20,6 +31,7 @@ const DisplayExportSection = () => {
             alt={"notion export image"}
             width={50}
             height={50}
+            onClick={() => redirectToExportPage(index)}
           />
         ))}
       </div>
