@@ -31,7 +31,7 @@ const DisplayBook: FC<DisplayBookProps> = ({
         width={200}
         height={200}
       />
-      <div>{bookTitle}</div>
+      <div className={styles.DisplayBookContainerBookTitle}>{bookTitle}</div>
       <div>{bookAuthor}</div>
     </div>
   );

@@ -11,6 +11,13 @@
   cursor: pointer;
 }
 
+.DisplayBookContainerBookTitle {
+  max-width: 10rem;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
 /* Display Books Section */
 .DisplayBooksContainer,
 .DisplayBooksErrorContainer {
