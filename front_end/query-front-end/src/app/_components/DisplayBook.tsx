@@ -27,7 +27,7 @@ const DisplayBook: FC<DisplayBookProps> = ({
     <div className={styles.DisplayBookContainer} onClick={redirectToBookPage}>
       <Image
         src={formatedResourceUrl(bookImageUrl)}
-        alt={bookTitle + "picture"}
+        alt={bookTitle + " picture"}
         width={200}
         height={200}
       />

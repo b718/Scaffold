@@ -33,7 +33,7 @@ const page = () => {
     <div className={styles.PageSection}>
       <Image
         src={formatedResourceUrl(book.bookImageUrl)}
-        alt={book.bookTitle + "picture"}
+        alt={book.bookTitle + " picture"}
         width={200}
         height={200}
       />

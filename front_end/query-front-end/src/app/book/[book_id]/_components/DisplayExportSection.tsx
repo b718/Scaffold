@@ -28,7 +28,7 @@ const DisplayExportSection: FC<DisplayExportSectionProps> = ({ bookId }) => {
           <Image
             key={index}
             src={imageSrc}
-            alt={"notion export image"}
+            alt={`${exportType[index]} export image`}
             width={50}
             height={50}
             onClick={() => redirectToExportPage(index)}
