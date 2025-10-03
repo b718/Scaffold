@@ -2,6 +2,7 @@ import React, { FC } from "react";
 import styles from "../page.module.css";
 import Image from "next/image";
 import { useRouter } from "next/navigation";
+import formatedResourceUrl from "../../../utilities/getCdnUrl";
 
 interface DisplayBookProps {
   bookId: string;
@@ -25,7 +26,7 @@ const DisplayBook: FC<DisplayBookProps> = ({
   return (
     <div className={styles.DisplayBookContainer} onClick={redirectToBookPage}>
       <Image
-        src={bookImageUrl}
+        src={formatedResourceUrl(bookImageUrl)}
         alt={bookTitle + "picture"}
         width={200}
         height={200}
