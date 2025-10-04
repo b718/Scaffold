@@ -3,6 +3,7 @@
 
 # Env
 .env
-*/anki/*
-*/notion/*
-*/obsidian/*
+data/*
+scripts/local-scripts/get-book-export-data/anki-export/anki/*
+scripts/local-scripts/get-book-export-data/markdown-export/obsidian/*
+scripts/local-scripts/get-book-export-data/markdown-export/notion/*
