@@ -22,7 +22,7 @@ const DisplayExportSection: FC<DisplayExportSectionProps> = ({ bookId }) => {
 
   return (
     <div className={styles.DisplayExportContainer}>
-      <text>Different Export Options</text>
+      <p>Different Export Options</p>
       <div className={styles.ExportOptionsContainer}>
         {exportImages.map((imageSrc, index) => (
           <Image

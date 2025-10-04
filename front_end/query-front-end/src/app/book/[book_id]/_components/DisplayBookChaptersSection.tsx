@@ -17,9 +17,9 @@ const DisplayBookChaptersSection: FC<DisplayBookChaptersSectionProps> = ({
 
   return (
     <div className={styles.DisplayBookChaptersContainer}>
-      <text>Chapters in the book: </text>
-      {formattedChapters.map((bookChapter) => (
-        <div>{bookChapter}</div>
+      <p>Chapters in the book: </p>
+      {formattedChapters.map((bookChapter, index) => (
+        <div key={index}>{bookChapter}</div>
       ))}
     </div>
   );
