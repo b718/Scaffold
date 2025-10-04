@@ -1,0 +1,8 @@
+# Ignore Images
+*.png
+
+# Env
+.env
+*/anki/*
+*/notion/*
+*/obsidian/*
