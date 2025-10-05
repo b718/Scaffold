@@ -17,7 +17,7 @@ const ExportModal = () => {
     fetchExportType(bookId, exportType)
       .then((downloadUrl) => setDownloadUrl(downloadUrl.presignedUrl))
       .catch((error) => setError(error));
-  }, []);
+  }, [bookId, exportType]);
 
   return (
     <div className={styles.ExportModalContainer}>

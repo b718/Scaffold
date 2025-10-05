@@ -10,7 +10,7 @@ import DisplayBookChaptersSection from "./_components/DisplayBookChaptersSection
 import DisplayBookDetails from "./_components/DisplayBookDetails";
 import formatedResourceUrl from "../../../../utilities/getCdnUrl";
 
-const page = () => {
+const Page = () => {
   const pathName = usePathname().split("/");
   const bookId = pathName[pathName.length - 1];
   const [book, setBook] = useState<Book | null>(null);
@@ -48,4 +48,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Page;

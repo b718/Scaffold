@@ -5,7 +5,7 @@ import React, { useEffect, useState } from "react";
 import fetchExportType from "./_utilities/fetchExportType";
 import styles from "../../page.module.css";
 
-const page = () => {
+const Page = () => {
   const pathName = usePathname().split("/");
   const exportType = pathName[pathName.length - 1];
   const bookId = pathName[pathName.length - 3];
@@ -16,7 +16,7 @@ const page = () => {
     fetchExportType(bookId, exportType)
       .then((downloadUrl) => setDownloadUrl(downloadUrl.presignedUrl))
       .catch((error) => setError(error));
-  }, []);
+  }, [bookId, exportType]);
 
   return (
     <div className={styles.ExportContainer}>
@@ -33,4 +33,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Page;

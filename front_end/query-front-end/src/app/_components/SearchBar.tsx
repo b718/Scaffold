@@ -7,7 +7,7 @@ import { useRouter } from "next/navigation";
 const SearchBar = () => {
   const router = useRouter();
   const [query, setQuery] = useState<string>("");
-  const handleQueryChange = (e: any) => {
+  const handleQueryChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     setQuery(e.target.value);
   };
   const redirectToQueryPage = () => {

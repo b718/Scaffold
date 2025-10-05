@@ -7,7 +7,7 @@ import DisplayBooks from "@/app/_components/DisplayBooks";
 import SearchBar from "@/app/_components/SearchBar";
 import styles from "./page.module.css";
 
-const page = () => {
+const Page = () => {
   const pathName = usePathname().split("/");
   const bookQuery = pathName[pathName.length - 1];
   const [books, setBooks] = useState<Book[]>([]);
@@ -21,7 +21,7 @@ const page = () => {
       .catch((error) => {
         setError(error);
       });
-  }, []);
+  }, [bookQuery]);
 
   if (error) {
     return <div>something went wrong lol, please try again thanks!</div>;
@@ -35,4 +35,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Page;
