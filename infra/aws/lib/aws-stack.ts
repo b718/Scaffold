@@ -4,6 +4,9 @@ import createGetPresignedUrlLambda from "../resources/lambda/getPresignedUrlLamb
 import createExportFilesS3Bucket from "../resources/s3/exportFilesS3Bucket";
 import createCloudDeliveryNetworkForBookImages from "../resources/cdn/getCloudDeliveryNetworkForBookImages";
 import createMonolithLambda from "../resources/lambda/getMonolithLambda";
+import * as dotenv from "dotenv";
+
+dotenv.config();
 
 export class AwsStack extends cdk.Stack {
   constructor(scope: Construct, id: string, props?: cdk.StackProps) {
