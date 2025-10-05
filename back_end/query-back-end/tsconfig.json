@@ -7,7 +7,7 @@
 
     // Environment Settings
     // See also https://aka.ms/tsconfig/module
-    "module": "esnext",
+    "module": "commonjs",
     "target": "esnext",
     "types": [],
     // For nodejs:
@@ -35,7 +35,6 @@
     // Recommended Options
     "strict": true,
     "jsx": "react-jsx",
-    "verbatimModuleSyntax": true,
     "isolatedModules": true,
     "noUncheckedSideEffectImports": true,
     "moduleDetection": "force",
@@ -44,11 +43,12 @@
     // My Changes
     "esModuleInterop": true,
     "outDir": "dist",
-    "moduleResolution": "node10"
+    "moduleResolution": "node"
   },
   "ts-node": {
     // Tell ts-node CLI to install the --loader automatically
     "esm": true
   },
-  "include": ["./*"]
+  "include": ["**/*.ts"],
+  "exclude": ["dist", "node_modules"]
 }
