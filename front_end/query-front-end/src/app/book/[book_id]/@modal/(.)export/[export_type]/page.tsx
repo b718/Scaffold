@@ -27,7 +27,7 @@ const ExportModal = () => {
         {error ? (
           <div>{"an error happened :(, please refresh"}</div>
         ) : (
-          <a href={downloadUrl}>Download</a>
+          <a href={downloadUrl}>{downloadUrl ? "Download" : "Loading..."}</a>
         )}
 
         <button

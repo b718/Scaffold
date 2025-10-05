@@ -26,7 +26,7 @@ const page = () => {
         {error ? (
           <div>{"an error happened :(, please refresh"}</div>
         ) : (
-          <a href={downloadUrl}>Download</a>
+          <a href={downloadUrl}>{downloadUrl ? "Download" : "Loading..."}</a>
         )}
       </div>
     </div>
