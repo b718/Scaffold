@@ -13,8 +13,9 @@ import formatedResourceUrl from "../../../../utilities/getCdnUrl";
 export const runtime = "edge";
 
 const Page = () => {
-  const pathName = usePathname().split("/");
-  const bookId = pathName[pathName.length - 1];
+  const pathName = usePathname().split("book");
+  const bookName = pathName[1].split("/");
+  const bookId = bookName[1];
   const [book, setBook] = useState<Book | null>(null);
   const [error, setError] = useState<Error>();
   useEffect(() => {
