@@ -10,6 +10,8 @@ import DisplayBookChaptersSection from "./_components/DisplayBookChaptersSection
 import DisplayBookDetails from "./_components/DisplayBookDetails";
 import formatedResourceUrl from "../../../../utilities/getCdnUrl";
 
+export const runtime = "edge";
+
 const Page = () => {
   const pathName = usePathname().split("/");
   const bookId = pathName[pathName.length - 1];
