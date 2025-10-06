@@ -7,6 +7,8 @@ import DisplayBooks from "@/app/_components/DisplayBooks";
 import SearchBar from "@/app/_components/SearchBar";
 import styles from "./page.module.css";
 
+export const runtime = "edge";
+
 const Page = () => {
   const pathName = usePathname().split("/");
   const bookQuery = pathName[pathName.length - 1];

@@ -19,7 +19,7 @@ const Page = () => {
     fetchBook(bookId)
       .then((book) => setBook(book))
       .catch((error) => setError(error));
-  }, []);
+  }, [bookId]);
 
   if (error || !book) {
     return (

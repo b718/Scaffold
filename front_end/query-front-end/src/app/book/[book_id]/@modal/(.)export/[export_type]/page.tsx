@@ -5,6 +5,8 @@ import { usePathname, useRouter } from "next/navigation";
 import styles from "../../../page.module.css";
 import fetchExportType from "../../../export/[export_type]/_utilities/fetchExportType";
 
+export const runtime = "edge";
+
 const ExportModal = () => {
   const router = useRouter();
   const pathName = usePathname().split("/");

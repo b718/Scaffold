@@ -5,6 +5,8 @@ import React, { useEffect, useState } from "react";
 import fetchExportType from "./_utilities/fetchExportType";
 import styles from "../../page.module.css";
 
+export const runtime = "edge";
+
 const Page = () => {
   const pathName = usePathname().split("/");
   const exportType = pathName[pathName.length - 1];
