@@ -11,7 +11,10 @@ const SearchBar = () => {
     setQuery(e.target.value);
   };
   const redirectToQueryPage = () => {
-    if (query.length == 0) return;
+    if (query.length == 0) {
+      router.push("/");
+      return;
+    }
 
     const pageForCurrentQuery = "/query/" + query;
     router.push(pageForCurrentQuery);
