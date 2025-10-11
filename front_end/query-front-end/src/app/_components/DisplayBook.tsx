@@ -1,8 +1,8 @@
 import React, { FC } from "react";
 import styles from "../page.module.css";
 import Image from "next/image";
-import { useRouter } from "next/navigation";
 import formatedResourceUrl from "../../../utilities/getCdnUrl";
+import Link from "next/link";
 
 interface DisplayBookProps {
   bookId: string;
@@ -17,23 +17,21 @@ const DisplayBook: FC<DisplayBookProps> = ({
   bookTitle,
   bookImageUrl,
 }) => {
-  const router = useRouter();
-  const redirectToBookPage = () => {
-    const pageForCurrentBook = "/book/" + bookId;
-    router.push(pageForCurrentBook);
-  };
+  const pageForCurrentBook = "/book/" + bookId;
 
   return (
-    <div className={styles.DisplayBookContainer} onClick={redirectToBookPage}>
-      <Image
-        src={formatedResourceUrl(bookImageUrl)}
-        alt={bookTitle + " picture"}
-        width={200}
-        height={200}
-      />
-      <div className={styles.DisplayBookContainerBookTitle}>{bookTitle}</div>
-      <div>{bookAuthor}</div>
-    </div>
+    <Link href={pageForCurrentBook} className={styles.DisplayBookLink}>
+      <div className={styles.DisplayBookContainer}>
+        <Image
+          src={formatedResourceUrl(bookImageUrl)}
+          alt={bookTitle + " picture"}
+          width={200}
+          height={200}
+        />
+        <div className={styles.DisplayBookContainerBookTitle}>{bookTitle}</div>
+        <div>{bookAuthor}</div>
+      </div>
+    </Link>
   );
 };
 

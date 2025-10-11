@@ -23,7 +23,11 @@ export default function Home() {
   }, []);
 
   if (error) {
-    return <div>error lol</div>;
+    return (
+      <div className={styles.DisplayBookContainer}>
+        {"something went wrong :(, please refresh"}
+      </div>
+    );
   }
 
   return (

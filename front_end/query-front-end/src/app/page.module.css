@@ -9,6 +9,10 @@
 
   margin-top: 1rem;
   cursor: pointer;
+  padding: 1rem;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 7px 0 #ddd;
+  border-radius: 5px;
 }
 
 .DisplayBookContainerBookTitle {
@@ -16,6 +20,11 @@
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
+}
+
+.DisplayBookLink {
+  text-decoration: none;
+  color: black;
 }
 
 /* Display Books Section */
@@ -26,7 +35,7 @@
   align-items: center;
   justify-content: center;
 
-  margin-top: 3rem;
+  margin-top: 2rem;
   margin-left: 1rem;
   margin-right: 1rem;
   margin-bottom: 5rem;
