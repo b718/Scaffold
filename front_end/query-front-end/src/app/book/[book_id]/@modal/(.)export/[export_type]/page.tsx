@@ -26,6 +26,11 @@ const ExportModal = () => {
       <div className={styles.ExportModalCard}>
         <h2>{`Export to ${exportType}`}</h2>
 
+        <iframe
+          src="https://www.youtube.com/embed/19g66ezsKAg"
+          allowFullScreen
+        />
+
         {error ? (
           <div>{"an error happened :(, please refresh"}</div>
         ) : (

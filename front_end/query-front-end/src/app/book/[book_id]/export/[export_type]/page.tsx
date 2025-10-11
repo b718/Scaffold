@@ -25,6 +25,13 @@ const Page = () => {
       <div className={styles.ExportCard}>
         <h2>{`Export to ${exportType}`}</h2>
 
+        <iframe
+          src="https://www.youtube.com/embed/19g66ezsKAg"
+          allowFullScreen
+          width={500}
+          height={300}
+        />
+
         {error ? (
           <div>{"an error happened :(, please refresh"}</div>
         ) : (
