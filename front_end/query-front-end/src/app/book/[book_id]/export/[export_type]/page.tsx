@@ -4,6 +4,7 @@ import { usePathname } from "next/navigation";
 import React, { useEffect, useState } from "react";
 import fetchExportType from "./_utilities/fetchExportType";
 import styles from "../../page.module.css";
+import getExportTypeVideo from "./_utilities/getExportTypeVideo";
 
 export const runtime = "edge";
 
@@ -25,12 +26,7 @@ const Page = () => {
       <div className={styles.ExportCard}>
         <h2>{`Export to ${exportType}`}</h2>
 
-        <iframe
-          src="https://www.youtube.com/embed/19g66ezsKAg"
-          allowFullScreen
-          width={500}
-          height={300}
-        />
+        <iframe src={getExportTypeVideo(exportType)} allowFullScreen />
 
         {error ? (
           <div>{"an error happened :(, please refresh"}</div>

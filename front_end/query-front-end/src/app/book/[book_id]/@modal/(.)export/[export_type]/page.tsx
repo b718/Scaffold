@@ -4,6 +4,7 @@ import React, { useEffect, useState } from "react";
 import { usePathname, useRouter } from "next/navigation";
 import styles from "../../../page.module.css";
 import fetchExportType from "../../../export/[export_type]/_utilities/fetchExportType";
+import getExportTypeVideo from "../../../export/[export_type]/_utilities/getExportTypeVideo";
 
 export const runtime = "edge";
 
@@ -26,10 +27,7 @@ const ExportModal = () => {
       <div className={styles.ExportModalCard}>
         <h2>{`Export to ${exportType}`}</h2>
 
-        <iframe
-          src="https://www.youtube.com/embed/19g66ezsKAg"
-          allowFullScreen
-        />
+        <iframe src={getExportTypeVideo(exportType)} allowFullScreen />
 
         {error ? (
           <div>{"an error happened :(, please refresh"}</div>

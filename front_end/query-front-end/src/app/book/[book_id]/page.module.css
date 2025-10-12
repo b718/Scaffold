@@ -105,6 +105,10 @@
   gap: 1rem;
 }
 
+.ExportCard > h2 {
+  text-transform: capitalize;
+}
+
 .ExportOptionsContainer {
   display: flex;
   flex-direction: row;

@@ -5,6 +5,7 @@ import notionImage from "../../../../../public/notion.png";
 import obsidianImage from "../../../../../public/obsidian.png";
 import ankiImage from "../../../../../public/anki.png";
 import { useRouter } from "next/navigation";
+import { exportType } from "../export/[export_type]/_utilities/getExportTypeVideo";
 
 interface DisplayExportSectionProps {
   bookId: string;
@@ -12,7 +13,6 @@ interface DisplayExportSectionProps {
 
 const DisplayExportSection: FC<DisplayExportSectionProps> = ({ bookId }) => {
   const exportImages = [notionImage, obsidianImage, ankiImage];
-  const exportType = ["notion", "obsidian", "anki"];
   const router = useRouter();
   const redirectToExportPage = (exportTypeIndex: number) => {
     const pageForExportType =
