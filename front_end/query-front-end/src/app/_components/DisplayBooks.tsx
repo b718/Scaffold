@@ -1,4 +1,4 @@
-import React, { FC } from "react";
+import React, { FC, useMemo } from "react";
 import { Books } from "../_utilities/fetchBooks";
 import DisplayBook from "./DisplayBook";
 import styles from "../page.module.css";
@@ -25,19 +25,19 @@ const DisplayBooks: FC<DisplayBooksProps> = ({ books }) => {
     );
   }
 
-  return (
-    <div className={styles.DisplayBooksContainer}>
-      {books.map((book) => (
-        <DisplayBook
-          key={book.bookId}
-          bookId={book.bookId}
-          bookAuthor={book.bookAuthor}
-          bookTitle={book.bookTitle}
-          bookImageUrl={book.bookImageUrl}
-        />
-      ))}
-    </div>
-  );
+  const displayBooks = useMemo(() => {
+    return books.map((book) => (
+      <DisplayBook
+        key={book.bookId}
+        bookId={book.bookId}
+        bookAuthor={book.bookAuthor}
+        bookTitle={book.bookTitle}
+        bookImageUrl={book.bookImageUrl}
+      />
+    ));
+  }, [books]);
+
+  return <div className={styles.DisplayBooksContainer}>{displayBooks}</div>;
 };
 
 export default DisplayBooks;
