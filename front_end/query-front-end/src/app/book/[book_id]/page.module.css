@@ -10,6 +10,11 @@
   margin-top: 1rem;
   margin-left: 1rem;
   margin-right: 1rem;
+
+  padding: 1rem;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 7px 0 #ddd;
+  border-radius: 5px;
 }
 
 /* Display Book Details Section */
