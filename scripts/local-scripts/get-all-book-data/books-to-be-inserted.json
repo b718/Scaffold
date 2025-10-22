@@ -1,0 +1,930 @@
+[
+  {
+    "bookId": "52983722-8b7b-4b26-a1c8-1bfe042e989f",
+    "bookAuthor": "David Goggins",
+    "bookChapters": [
+      "Introduction",
+      "I Should Have Been a Statistic",
+      "Truth Hurts",
+      "The Impossible Task",
+      "Taking Souls",
+      "Armored Mind",
+      "It\u2019s Not About a Trophy",
+      "The Accountability Mirror",
+      "The 40% Rule",
+      "Conclusion"
+    ],
+    "bookPublishDate": "2018-12-04T00:00:00",
+    "bookImageUrl": "52983722-8b7b-4b26-a1c8-1bfe042e989f.png",
+    "bookTitle": "Can't Hurt Me"
+  },
+  {
+    "bookId": "19452e79-be21-47a7-beee-ef217d9933ca",
+    "bookAuthor": "Chris Guillebeau",
+    "bookChapters": [
+      "Introduction",
+      "Reinventing Yourself",
+      "The One-Page Business Plan",
+      "Scaling Up Without Selling Out",
+      "Marketing on a Shoestring",
+      "How to Run Your Company of One",
+      "The Art of Saying No",
+      "Managing Your Time",
+      "Staying Small, Staying Happy"
+    ],
+    "bookPublishDate": "2019-11-19T00:00:00",
+    "bookImageUrl": "19452e79-be21-47a7-beee-ef217d9933ca.png",
+    "bookTitle": "Company of One"
+  },
+  {
+    "bookId": "ee601eff-26c5-461e-8676-b1d7732ecd6b",
+    "bookAuthor": "Gary Vaynerchuk",
+    "bookChapters": [
+      "Introduction",
+      "Jab, Jab, Jab, Right Hook",
+      "Creating Great Content",
+      "Storytelling and Context",
+      "The Importance of Native Content",
+      "Social Media Platforms & Strategy",
+      "Engagement and Community Building",
+      "Measuring Success",
+      "Conclusion"
+    ],
+    "bookPublishDate": "2018-01-02T00:00:00",
+    "bookImageUrl": "ee601eff-26c5-461e-8676-b1d7732ecd6b.png",
+    "bookTitle": "Crushing It!"
+  },
+  {
+    "bookId": "a4b09b09-700f-45c9-9cfa-db50fe0cd778",
+    "bookAuthor": "Cal Newport",
+    "bookChapters": [
+      "Introduction: Deep Work Is Valuable, Rare, and Meaningful",
+      "Rule #1: Work Deeply",
+      "Rule #2: Embrace Boredom",
+      "Rule #3: Quit Social Media",
+      "Rule #4: Drain the Shallows",
+      "Conclusion: A Deep Life"
+    ],
+    "bookPublishDate": "2016-01-05T00:00:00",
+    "bookImageUrl": "a4b09b09-700f-45c9-9cfa-db50fe0cd778.png",
+    "bookTitle": "Deep Work"
+  },
+  {
+    "bookId": "ff33c810-fc8b-4b6e-8a62-667d9ef5a503",
+    "bookAuthor": "Bill Perkins",
+    "bookChapters": [
+      "Die With Zero Introduction",
+      "Maximize Life Experiences",
+      "Balance Time and Money",
+      "Invest in Experiences Early",
+      "Spend Wisely",
+      "Delay Gratification",
+      "Give Money Away Thoughtfully",
+      "Die With Zero Conclusion"
+    ],
+    "bookPublishDate": "2020-05-05T00:00:00",
+    "bookImageUrl": "ff33c810-fc8b-4b6e-8a62-667d9ef5a503.png",
+    "bookTitle": "Die With Zero"
+  },
+  {
+    "bookId": "e2036202-5b72-4949-b7ac-2071d59be26d",
+    "bookAuthor": "Ryan Holiday",
+    "bookChapters": [
+      "Introduction",
+      "Discipline is Destiny",
+      "Self-Control as the Greatest Form of Freedom",
+      "Stoic Virtues and How to Develop Them",
+      "The Role of Routine and Habit",
+      "The Power of Focused Effort",
+      "Conclusion"
+    ],
+    "bookPublishDate": "2020-07-28T00:00:00",
+    "bookImageUrl": "e2036202-5b72-4949-b7ac-2071d59be26d.png",
+    "bookTitle": "Discipline is Destiny"
+  },
+  {
+    "bookId": "a0e3dbc8-e061-491b-b7c3-3df1ae2bd533",
+    "bookAuthor": "Daniel H. Pink",
+    "bookChapters": [
+      "Introduction",
+      "Part 1: The Rise and Fall of Motivation 2.0",
+      "Part 2: The Three Elements",
+      "Part 3: The Type I Toolkit",
+      "Conclusion: Type I and the Future"
+    ],
+    "bookPublishDate": "2009-12-29T00:00:00",
+    "bookImageUrl": "a0e3dbc8-e061-491b-b7c3-3df1ae2bd533.png",
+    "bookTitle": "Drive"
+  },
+  {
+    "bookId": "29e1915a-12c1-4f75-873e-65c927e6c0b9",
+    "bookAuthor": "Ryan Holiday",
+    "bookChapters": [
+      "Introduction",
+      "Part 1: Aspire",
+      "Part 2: Success",
+      "Part 3: Failure",
+      "Ego is the Enemy in Action",
+      "Conclusion"
+    ],
+    "bookPublishDate": "2016-06-14T00:00:00",
+    "bookImageUrl": "29e1915a-12c1-4f75-873e-65c927e6c0b9.png",
+    "bookTitle": "Ego is the Enemy"
+  },
+  {
+    "bookId": "fa537c9b-5b80-4148-b9c8-d22777262839",
+    "bookAuthor": "Mark Manson",
+    "bookChapters": [
+      "Introduction: The Feedback Loop from Hell",
+      "The Uncomfortable Truth",
+      "Self-Control is an Illusion",
+      "Newton's Laws of Emotion",
+      "How to Make All This F*cked Up Stuff Better",
+      "Pain is the Universal Constant",
+      "The Formula for Happiness",
+      "The Responsibility/Fault Paradox",
+      "Conclusion"
+    ],
+    "bookPublishDate": "2019-05-14T00:00:00",
+    "bookImageUrl": "fa537c9b-5b80-4148-b9c8-d22777262839.png",
+    "bookTitle": "Everything is F*cked"
+  },
+  {
+    "bookId": "36f2c798-b6a7-4f56-b6dd-13ac6d6be2ae",
+    "bookAuthor": "Mihaly Csikszentmihalyi",
+    "bookChapters": [
+      "Introduction",
+      "The Psychology of Optimal Experience",
+      "Enjoyment and the Quality of Life",
+      "The Conditions of Flow",
+      "The Body in Flow",
+      "The Flow of Thought",
+      "Work as Flow",
+      "The Flow of Creativity",
+      "The Flow of Sports",
+      "The Flow of Social Life"
+    ],
+    "bookPublishDate": "1990-01-01T00:00:00",
+    "bookImageUrl": "36f2c798-b6a7-4f56-b6dd-13ac6d6be2ae.png",
+    "bookTitle": "Flow"
+  },
+  {
+    "bookId": "b4858be6-23e1-4013-a973-69cf1950cee8",
+    "bookAuthor": "Angela Duckworth",
+    "bookChapters": [
+      "Showing Up",
+      "Distracted by Talent",
+      "Effort Counts Twice",
+      "How Gritty Are You?",
+      "The Playing Fields of Grit",
+      "Interest",
+      "Practice",
+      "Purpose",
+      "Hope",
+      "Parenting for Grit",
+      "A Culture of Grit"
+    ],
+    "bookPublishDate": "2016-05-03T00:00:00",
+    "bookImageUrl": "b4858be6-23e1-4013-a973-69cf1950cee8.png",
+    "bookTitle": "Grit"
+  },
+  {
+    "bookId": "0bd951f0-f8dc-47c0-b614-ef5f2ca7680e",
+    "bookAuthor": "James Clear",
+    "bookChapters": [
+      "Introduction: My Story",
+      "The Fundamentals: Why Tiny Changes Make a Big Difference",
+      "The 1st Law: Make It Obvious",
+      "The 2nd Law: Make It Attractive",
+      "The 3rd Law: Make It Easy",
+      "The 4th Law: Make It Satisfying",
+      "Advanced Tactics: How to Go from Being Merely Good to Being Truly Great",
+      "Conclusion: The Secret to Results That Last"
+    ],
+    "bookPublishDate": "2018-10-16T00:00:00",
+    "bookImageUrl": "0bd951f0-f8dc-47c0-b614-ef5f2ca7680e.png",
+    "bookTitle": "Atomic Habits"
+  },
+  {
+    "bookId": "dbdc9418-3838-4007-977f-4512b984f996",
+    "bookAuthor": "Ramit Sethi",
+    "bookChapters": [
+      "Introduction: Why Investing and Personal Finance Matter",
+      "Optimize Your Credit Cards",
+      "Beat the Banks & Save When You Shop",
+      "Set up No-Fee, High-Interest Accounts",
+      "Build a Powerful, Psychologically Rooted Money System",
+      "Invest for the Long Term",
+      "Conscious Spending: Where to Spend on What You Love",
+      "Get the Right Financial Advisors",
+      "How to Make Big Money Moves",
+      "Become Wealthy and Give Back"
+    ],
+    "bookPublishDate": "2009-04-01T00:00:00",
+    "bookImageUrl": "dbdc9418-3838-4007-977f-4512b984f996.png",
+    "bookTitle": "I Will Teach You to Be Rich"
+  },
+  {
+    "bookId": "19e1b9ca-1369-43fd-a5b7-3b1cb505d945",
+    "bookAuthor": "Robert B. Cialdini",
+    "bookChapters": [
+      "Weapon of Influence",
+      "Reciprocation",
+      "Commitment and Consistency",
+      "Social Proof",
+      "Liking",
+      "Authority",
+      "Scarcity",
+      "Instant Influence: Primitive Consent for an Automatic Age"
+    ],
+    "bookPublishDate": "1984-01-01T00:00:00",
+    "bookImageUrl": "19e1b9ca-1369-43fd-a5b7-3b1cb505d945.png",
+    "bookTitle": "Influence: The Psychology of Persuasion"
+  },
+  {
+    "bookId": "0d53ddba-3192-45f6-8994-54a80b73158c",
+    "bookAuthor": "Gary Vaynerchuk",
+    "bookChapters": [
+      "Introduction",
+      "The Importance of Context",
+      "The Jab\u2014Adding Value",
+      "More Jabs",
+      "The Right Hook\u2014The Ask",
+      "Platform Preferences",
+      "Creating Content That Works",
+      "Strategy and Tactics",
+      "Conclusion"
+    ],
+    "bookPublishDate": "2013-11-05T00:00:00",
+    "bookImageUrl": "0d53ddba-3192-45f6-8994-54a80b73158c.png",
+    "bookTitle": "Jab, Jab, Jab, Right Hook"
+  },
+  {
+    "bookId": "5bcb23f3-c54e-481b-90cf-8183b3ebdb39",
+    "bookAuthor": "Jake Knapp, John Zeratsky",
+    "bookChapters": [
+      "Introduction",
+      "Step 1: Highlight",
+      "Step 2: Laser",
+      "Step 3: Energize",
+      "Step 4: Reflect",
+      "Conclusion"
+    ],
+    "bookPublishDate": "2018-10-09T00:00:00",
+    "bookImageUrl": "5bcb23f3-c54e-481b-90cf-8183b3ebdb39.png",
+    "bookTitle": "Make Time"
+  },
+  {
+    "bookId": "0bfb2eab-0e4b-4c9b-9e68-e63152b54420",
+    "bookAuthor": "Carol S. Dweck",
+    "bookChapters": [
+      "Introduction",
+      "The Mindsets",
+      "Inside the Mindsets",
+      "The Truth About Ability and Accomplishment",
+      "Sports: The Mindset of a Champion",
+      "Business: Mindset and Leadership",
+      "Relationships: Mindsets in Love (Or Not)",
+      "Parents, Teachers, and Coaches: Where Do Mindsets Come From?",
+      "Changing Mindsets"
+    ],
+    "bookPublishDate": "2006-02-01T00:00:00",
+    "bookImageUrl": "0bfb2eab-0e4b-4c9b-9e68-e63152b54420.png",
+    "bookTitle": "Mindset: The New Psychology of Success"
+  },
+  {
+    "bookId": "f5b2050a-e71d-43c7-8e74-190baa1c71d3",
+    "bookAuthor": "David Goggins",
+    "bookChapters": [
+      "Introduction: What Makes a Warrior?",
+      "Callusing the Mind",
+      "Embrace the Suck",
+      "The Cookie Jar",
+      "Motivation Is Crap",
+      "Uncommon Amongst Uncommon",
+      "Taking Souls 2.0",
+      "It\u2019s a Lifestyle",
+      "Conclusion and Next Steps"
+    ],
+    "bookPublishDate": "2022-11-01T00:00:00",
+    "bookImageUrl": "f5b2050a-e71d-43c7-8e74-190baa1c71d3.png",
+    "bookTitle": "Never Finished"
+  },
+  {
+    "bookId": "35128382-cf66-4a3f-aadb-9271f4b58738",
+    "bookAuthor": "Robert Cialdini",
+    "bookChapters": [
+      "Introduction: Pre-Suasion",
+      "Pre-Suasion: The Front Loading of Attention",
+      "Privileged Moments",
+      "What's Focal is Causal",
+      "Channeling Attention to Create a Sense of Urgency",
+      "Capturing and Anchoring Attention",
+      "The Mechanics and Ethics of Pre-Suasion"
+    ],
+    "bookPublishDate": "2016-09-06T00:00:00",
+    "bookImageUrl": "35128382-cf66-4a3f-aadb-9271f4b58738.png",
+    "bookTitle": "Pre-Suasion"
+  },
+  {
+    "bookId": "a545aeca-546e-4d46-b939-a2b44102f11b",
+    "bookAuthor": "Dale Carnegie",
+    "bookChapters": [
+      "Nine Suggestions on How to Get the Most Out of This Book",
+      "Fundamental Techniques in Handling People",
+      "Six Ways to Make People Like You",
+      "How to Win People to Your Way of Thinking",
+      "Be a Leader: How to Change People Without Giving Offense or Arousing Resentment"
+    ],
+    "bookPublishDate": "1936-10-01T00:00:00",
+    "bookImageUrl": "a545aeca-546e-4d46-b939-a2b44102f11b.png",
+    "bookTitle": "How to Win Friends and Influence People"
+  },
+  {
+    "bookId": "5f93e192-7d57-4476-9829-60aa6ab52deb",
+    "bookAuthor": "Simon Sinek",
+    "bookChapters": [
+      "Foreword",
+      "Part 1: Our Need to Feel Safe",
+      "Part 2: Powerful Forces",
+      "Part 3: Reality",
+      "Part 4: How We Got Here",
+      "Part 5: The Abstract Challenge",
+      "Part 6: Destructive Abundance",
+      "Part 7: A Society of Addicts",
+      "Part 8: Becoming a Leader",
+      "Acknowledgments",
+      "Notes",
+      "Bibliography",
+      "Index"
+    ],
+    "bookPublishDate": "2014-01-07T00:00:00",
+    "bookImageUrl": "5f93e192-7d57-4476-9829-60aa6ab52deb.png",
+    "bookTitle": "Leaders Eat Last: Why Some Teams Pull Together and Others Don\u2019t"
+  },
+  {
+    "bookId": "8205daf6-87a5-45af-85ec-2ecd98227470",
+    "bookAuthor": "Robert Kiyosaki",
+    "bookChapters": [
+      "20 years ... 20/20 hindsight",
+      "Introduction",
+      "Lesson 1: The rich don't work for money",
+      "Lesson 2: Why teach financial literacy?",
+      "Lesson 3: Mind your own business",
+      "Lesson 4: The history of taxes and the power of corporations",
+      "Lesson 5: The rich invent money",
+      "Lesson 6: Work to learn, don't work for money",
+      "Overcoming obstacles",
+      "Getting started",
+      "Still want more? Here are some to do's",
+      "Final thoughts."
+    ],
+    "bookPublishDate": "2000-04-01T00:00:00",
+    "bookImageUrl": "8205daf6-87a5-45af-85ec-2ecd98227470.png",
+    "bookTitle": "Rich Dad Poor Dad"
+  },
+  {
+    "bookId": "4506fede-fb9d-4cdb-a3c6-6fe0fc4df096",
+    "bookAuthor": "Austin Kleon",
+    "bookChapters": [
+      "Introduction: You Don\u2019t Have to Be a Genius",
+      "Don\u2019t Wait Until You Know Who You Are to Start Making Things",
+      "Think Process, Not Product",
+      "Share Something Small Every Day",
+      "Open Up Your Cabinet of Curiosities",
+      "Tell Good Stories",
+      "Teach What You Know",
+      "Don\u2019t Turn Into Human Spam",
+      "Learn to Take a Punch",
+      "Sell Out",
+      "Stick Around"
+    ],
+    "bookPublishDate": "2014-04-08T00:00:00",
+    "bookImageUrl": "4506fede-fb9d-4cdb-a3c6-6fe0fc4df096.png",
+    "bookTitle": "Show Your Work!"
+  },
+  {
+    "bookId": "784a1167-2ff3-4131-bfb8-d3a3e5d0ff1f",
+    "bookAuthor": "Cal Newport",
+    "bookChapters": [
+      "Introduction: The Passion Hypothesis",
+      "Don't Follow Your Passion",
+      "Be So Good They Can't Ignore You",
+      "The Craftsman Mindset",
+      "The Importance of Career Capital",
+      "The Power of Control",
+      "The Power of Mission",
+      "Conclusion"
+    ],
+    "bookPublishDate": "2012-04-03T00:00:00",
+    "bookImageUrl": "784a1167-2ff3-4131-bfb8-d3a3e5d0ff1f.png",
+    "bookTitle": "So Good They Can\u2019t Ignore You"
+  },
+  {
+    "bookId": "af42d160-a462-4ac0-b3dc-0b99aaaa6d62",
+    "bookAuthor": "Simon Sinek",
+    "bookChapters": [
+      "Assume You Know",
+      "An Alternative Perspective",
+      "The Golden Circle",
+      "This is Not Opinion, This is Biology",
+      "Clarity, Discipline and Consistency",
+      "When Why Goes Fuzzy",
+      "Start with Why, But Know How",
+      "Communication and Authenticity",
+      "The Celery Test",
+      "Know Why. Know How. Then What?"
+    ],
+    "bookPublishDate": "2009-09-01T00:00:00",
+    "bookImageUrl": "af42d160-a462-4ac0-b3dc-0b99aaaa6d62.png",
+    "bookTitle": "Start with Why"
+  },
+  {
+    "bookId": "5ba8fd9c-8129-4b2f-925d-ff4ebedea340",
+    "bookAuthor": "Austin Kleon",
+    "bookChapters": [
+      "Introduction",
+      "Steal Like an Artist",
+      "Don't Wait Until You Know Who You Are to Start Making Things",
+      "Write the Book You Want to Read",
+      "Use Your Hands",
+      "Side Projects and Hobbies Are Important",
+      "Do Good Work and Share It with People",
+      "Geography Is No Longer Our Master",
+      "Be Nice (The World Is a Small Town)",
+      "Be Boring (It's the Only Way to Get Work Done)",
+      "Creativity Is Subtraction"
+    ],
+    "bookPublishDate": "2012-06-01T00:00:00",
+    "bookImageUrl": "5ba8fd9c-8129-4b2f-925d-ff4ebedea340.png",
+    "bookTitle": "Steal Like an Artist"
+  },
+  {
+    "bookId": "7c14473b-d7fe-4dc2-bf38-8f5096072db3",
+    "bookAuthor": "Eric Ries",
+    "bookChapters": [
+      "Start",
+      "Define",
+      "Learn",
+      "Experiment",
+      "Leap",
+      "Test",
+      "Measure",
+      "Pivot (or Persevere)",
+      "Batch",
+      "Grow",
+      "Adapt",
+      "Innovate"
+    ],
+    "bookPublishDate": "2011-09-13T00:00:00",
+    "bookImageUrl": "7c14473b-d7fe-4dc2-bf38-8f5096072db3.png",
+    "bookTitle": "The Lean Startup"
+  },
+  {
+    "bookId": "1dd3ed73-1612-4346-8817-0311ccfd8976",
+    "bookAuthor": "Thomas J. Stanley, William D. Danko",
+    "bookChapters": [
+      "Introduction",
+      "1. Meet the Millionaire Next Door",
+      "2. Frugal, Frugal, Frugal",
+      "3. Time, Energy, and Money",
+      "4. You Aren\u2019t What You Drive",
+      "5. Economic Outpatient Care",
+      "6. Affirmative Action, Family Style",
+      "7. Find Your Niche",
+      "8. Jobs: Millionaires Versus Heirs",
+      "Acknowledgments"
+    ],
+    "bookPublishDate": "1996-10-28T00:00:00",
+    "bookImageUrl": "1dd3ed73-1612-4346-8817-0311ccfd8976.png",
+    "bookTitle": "The Millionaire Next Door"
+  },
+  {
+    "bookId": "559b8524-5ae8-4b7d-9588-b0f601d23457",
+    "bookAuthor": "Brianna Wiest",
+    "bookChapters": [
+      "Introduction",
+      "Part 1: Self-Sabotage Explained",
+      "Part 2: The Mountain Is You",
+      "Part 3: Overcoming Resistance",
+      "Part 4: The Transformation",
+      "Conclusion"
+    ],
+    "bookPublishDate": "2020-01-01T00:00:00",
+    "bookImageUrl": "559b8524-5ae8-4b7d-9588-b0f601d23457.png",
+    "bookTitle": "The Mountain Is You"
+  },
+  {
+    "bookId": "5c8e029c-68c8-4aa9-b55a-c5f0aac122db",
+    "bookAuthor": "Ryan Holiday",
+    "bookChapters": [
+      "The Discipline of Perception",
+      "The Discipline of Action",
+      "The Discipline of Will",
+      "Turning Trials into Triumph",
+      "Stoicism Today"
+    ],
+    "bookPublishDate": "2014-05-01T00:00:00",
+    "bookImageUrl": "5c8e029c-68c8-4aa9-b55a-c5f0aac122db.png",
+    "bookTitle": "The Obstacle is the Way"
+  },
+  {
+    "bookId": "770f0700-be2f-42ed-bd1f-e5e5e041fc0f",
+    "bookAuthor": "Eckhart Tolle",
+    "bookChapters": [
+      "Introduction",
+      "You Are Not Your Mind",
+      "Consciousness: The Way Out of Pain",
+      "Moving Deeply into the Now",
+      "Mind Strategies for Avoiding the Now",
+      "The State of Presence",
+      "The Inner Body",
+      "Portals into the Unmanifested",
+      "Enlightened Relationships",
+      "Beyond Happiness and Unhappiness There Is Peace",
+      "The Meaning of Surrender"
+    ],
+    "bookPublishDate": "1997-01-01T00:00:00",
+    "bookImageUrl": "770f0700-be2f-42ed-bd1f-e5e5e041fc0f.png",
+    "bookTitle": "The Power of Now"
+  },
+  {
+    "bookId": "84a34aa9-9ec3-48cd-925d-208b02b458cf",
+    "bookAuthor": "Robert Greene",
+    "bookChapters": [
+      "Introduction",
+      "1. Master Your Emotional Self: The Law of Irrationality",
+      "2. Transform Self-love into Empathy: The Law of Narcissism",
+      "3. See Through People\u2019s Masks: The Law of Role-playing",
+      "4. Determine the Strength of People\u2019s Character: The Law of Compulsive Behavior",
+      "5. Become an Elusive Object of Desire: The Law of Covetousness",
+      "6. Elevate Your Perspective: The Law of Shortsightedness",
+      "7. Soften People\u2019s Resistance by Confirming Their Self-Opinion: The Law of Defensiveness",
+      "8. Change Your Circumstances by Changing Your Attitude: The Law of Self-Sabotage",
+      "9. Confront Your Dark Side: The Law of Repression",
+      "10. Beware the Fragile Ego: The Law of Envy",
+      "11. Know Your Limits: The Law of Grandiosity",
+      "12. Reconnect to the Masculine or Feminine Within You: The Law of Gender Rigidity",
+      "13. Advance with a Sense of Purpose: The Law of Aimlessness",
+      "14. Resist the Downward Pull of the Group: The Law of Conformity",
+      "15. Make Them Want to Follow You: The Law of Fickleness",
+      "16. See the Hostility Behind the Friendly Fa\u00e7ade: The Law of Aggression",
+      "17. Seize the Historical Moment: The Law of Generational Myopia",
+      "18. Meditate on Our Common Mortality: The Law of Death Denial"
+    ],
+    "bookPublishDate": "2018-10-23T00:00:00",
+    "bookImageUrl": "84a34aa9-9ec3-48cd-925d-208b02b458cf.png",
+    "bookTitle": "The Laws of Human Nature"
+  },
+  {
+    "bookId": "3f1c1014-95af-4c46-8541-77f24977029b",
+    "bookAuthor": "Robert Greene",
+    "bookChapters": [
+      "Introduction",
+      "Part One: Self-Directed Warfare",
+      "1. The Polarity Strategy",
+      "2. The Guerilla-War-of-the-Mind Strategy",
+      "3. The Counterbalance Strategy",
+      "4. The Death-Ground Strategy",
+      "5. The Command-and-Control Strategy",
+      "Part Two: Organizational (Team) Warfare",
+      "6. The Perfect-Economy Strategy",
+      "7. The Chain-Reaction Strategy",
+      "8. The Blitzkrieg Strategy",
+      "9. The Divide-and-Conquer Strategy",
+      "10. The Passive-Aggression Strategy",
+      "Part Three: Defensive Warfare",
+      "11. The Counterattack Strategy",
+      "12. The Strategic-Withdrawal Strategy",
+      "13. The False-Flag Strategy",
+      "14. The Defensive-War-of-Attrition Strategy",
+      "15. The Strategic-Depth Strategy",
+      "Part Four: Offensive Warfare",
+      "16. The Center-of-Gravity Strategy",
+      "17. The Decisive-Point Strategy",
+      "18. The Flanking Strategy",
+      "19. The Envelopment Strategy",
+      "20. The Turning Strategy",
+      "21. The Annihilation Strategy",
+      "Part Five: Unconventional (Dirty) Warfare",
+      "22. The Chain-of-Command Strategy",
+      "23. The Misperception Strategy",
+      "24. The Weaving-the-Web Strategy",
+      "25. The Feigned-Madness Strategy",
+      "26. The Divide-and-Rule Strategy",
+      "27. The Passive-Resistance Strategy",
+      "28. The Nonengagement Strategy",
+      "29. The Double-Edged Strategy",
+      "30. The Unpredictability Strategy",
+      "31. The Terror Strategy",
+      "32. The Counterbalance Strategy (Revisited)",
+      "33. The Chain-Reaction Strategy (Revisited)",
+      "Conclusion: The Art of War Today",
+      "Appendix: Key Texts in the Literature of War"
+    ],
+    "bookPublishDate": "2006-01-19T00:00:00",
+    "bookImageUrl": "3f1c1014-95af-4c46-8541-77f24977029b.png",
+    "bookTitle": "The 33 Strategies of War"
+  },
+  {
+    "bookId": "22f9e4ca-a833-4873-8350-d8c7ec6b6c52",
+    "bookAuthor": "Tim Ferriss",
+    "bookChapters": [
+      "Step I: Definition",
+      "Step II: Elimination",
+      "Step III: Automation",
+      "Step IV: Liberation",
+      "Interludes and Case Studies"
+    ],
+    "bookPublishDate": "2007-04-24T00:00:00",
+    "bookImageUrl": "22f9e4ca-a833-4873-8350-d8c7ec6b6c52.png",
+    "bookTitle": "The 4-Hour Workweek"
+  },
+  {
+    "bookId": "1098f431-6ba6-47f6-8152-e37e190bd7b9",
+    "bookAuthor": "Robert Greene",
+    "bookChapters": [
+      "Law 1: Never Outshine the Master",
+      "Law 2: Never Put Too Much Trust in Friends, Learn How to Use Enemies",
+      "Law 3: Conceal Your Intentions",
+      "Law 4: Always Say Less Than Necessary",
+      "Law 5: So Much Depends on Reputation \u2014 Guard It with Your Life",
+      "Law 6: Court Attention at All Costs",
+      "Law 7: Get Others to Do the Work for You, but Always Take the Credit",
+      "Law 8: Make Other People Come to You \u2014 Use Bait if Necessary",
+      "Law 9: Win Through Your Actions, Never Through Argument",
+      "Law 10: Infection: Avoid the Unhappy and Unlucky",
+      "Law 11: Learn to Keep People Dependent on You",
+      "Law 12: Use Selective Honesty and Generosity to Disarm Your Victim",
+      "Law 13: When Asking for Help, Appeal to People\u2019s Self-Interest, Never to Their Mercy or Gratitude",
+      "Law 14: Pose as a Friend, Work as a Spy",
+      "Law 15: Crush Your Enemy Totally",
+      "Law 16: Use Absence to Increase Respect and Honor",
+      "Law 17: Keep Others in Suspended Terror: Cultivate an Air of Unpredictability",
+      "Law 18: Do Not Build Fortresses to Protect Yourself \u2014 Isolation is Dangerous",
+      "Law 19: Know Who You\u2019re Dealing With \u2014 Do Not Offend the Wrong Person",
+      "Law 20: Do Not Commit to Anyone",
+      "Law 21: Play a Sucker to Catch a Sucker \u2014 Seem Dumber Than Your Mark",
+      "Law 22: Use the Surrender Tactic: Transform Weakness into Power",
+      "Law 23: Concentrate Your Forces",
+      "Law 24: Play the Perfect Courtier",
+      "Law 25: Re-Create Yourself",
+      "Law 26: Keep Your Hands Clean",
+      "Law 27: Play on People\u2019s Need to Believe to Create a Cultlike Following",
+      "Law 28: Enter Action with Boldness",
+      "Law 29: Plan All the Way to the End",
+      "Law 30: Make Your Accomplishments Seem Effortless",
+      "Law 31: Control the Options: Get Others to Play with the Cards You Deal",
+      "Law 32: Play to People\u2019s Fantasies",
+      "Law 33: Discover Each Man\u2019s Thumbscrew",
+      "Law 34: Be Royal in Your Own Fashion: Act Like a King to Be Treated Like One",
+      "Law 35: Master the Art of Timing",
+      "Law 36: Disdain Things You Cannot Have: Ignoring Them Is the Best Revenge",
+      "Law 37: Create Compelling Spectacles",
+      "Law 38: Think as You Like but Behave Like Others",
+      "Law 39: Stir Up Waters to Catch Fish",
+      "Law 40: Despise the Free Lunch",
+      "Law 41: Avoid Stepping into a Great Man\u2019s Shoes",
+      "Law 42: Strike the Shepherd and the Sheep Will Scatter",
+      "Law 43: Work on the Hearts and Minds of Others",
+      "Law 44: Disarm and Infuriate with the Mirror Effect",
+      "Law 45: Preach the Need for Change, but Never Reform Too Much at Once",
+      "Law 46: Never Appear Too Perfect",
+      "Law 47: Do Not Go Past the Mark You Aimed For; In Victory, Learn When to Stop",
+      "Law 48: Assume Formlessness"
+    ],
+    "bookPublishDate": "1998-09-01T00:00:00",
+    "bookImageUrl": "1098f431-6ba6-47f6-8152-e37e190bd7b9.png",
+    "bookTitle": "The 48 Laws of Power"
+  },
+  {
+    "bookId": "eb4ee215-f09e-4c22-9441-f44e757e008c",
+    "bookAuthor": "Stephen R. Covey",
+    "bookChapters": [
+      "Foreword",
+      "Part 1: Paradigms and Principles",
+      "Inside-Out",
+      "The Seven Habits \u2014 An Overview",
+      "Part 2: Private Victory",
+      "Habit 1: Be Proactive",
+      "Habit 2: Begin with the End in Mind",
+      "Habit 3: Put First Things First",
+      "Part 3: Public Victory",
+      "Paradigms of Interdependence",
+      "Habit 4: Think Win-Win",
+      "Habit 5: Seek First to Understand, Then to Be Understood",
+      "Habit 6: Synergize",
+      "Part 4: Renewal",
+      "Habit 7: Sharpen the Saw",
+      "Afterword"
+    ],
+    "bookPublishDate": "1989-08-15T00:00:00",
+    "bookImageUrl": "eb4ee215-f09e-4c22-9441-f44e757e008c.png",
+    "bookTitle": "The 7 Habits of Highly Effective People"
+  },
+  {
+    "bookId": "b31a65fe-69a2-44cc-8d4f-659c73373a5a",
+    "bookAuthor": "Paulo Coelho",
+    "bookChapters": [
+      "Prologue",
+      "The Boy's Dream",
+      "Meeting the Alchemist",
+      "The Journey Begins",
+      "The Trials",
+      "The Desert",
+      "The Alchemist's Teachings",
+      "The Treasure",
+      "Epilogue"
+    ],
+    "bookPublishDate": "1988-05-01T00:00:00",
+    "bookImageUrl": "b31a65fe-69a2-44cc-8d4f-659c73373a5a.png",
+    "bookTitle": "The Alchemist"
+  },
+  {
+    "bookId": "c47ebab3-9347-4775-8814-4e74f50e1118",
+    "bookAuthor": "Eric Jorgenson",
+    "bookChapters": [
+      "Introduction",
+      "Happiness: Wealth, Health, and Peace",
+      "Health",
+      "Wealth",
+      "Peace",
+      "The Foundational Philosophies",
+      "Leverage",
+      "Specific Tactics",
+      "Learning",
+      "Refining Your Approach"
+    ],
+    "bookPublishDate": "2020-03-01T00:00:00",
+    "bookImageUrl": "c47ebab3-9347-4775-8814-4e74f50e1118.png",
+    "bookTitle": "The Almanack of Naval Ravikant"
+  },
+  {
+    "bookId": "6583fa18-5aee-4880-9a7c-e1fabe2074b5",
+    "bookAuthor": "Austin Kleon",
+    "bookChapters": [
+      "Being Creative",
+      "Creativity in Action",
+      "The Phases of Creativity",
+      "Overcoming Creativity Blocks",
+      "The Creative Act and Attention",
+      "The Creative Act and Presence",
+      "The Creative Act and Longevity",
+      "Creativity and Community",
+      "Conclusion"
+    ],
+    "bookPublishDate": "2022-08-16T00:00:00",
+    "bookImageUrl": "6583fa18-5aee-4880-9a7c-e1fabe2074b5.png",
+    "bookTitle": "The Creative Act: A Way of Being"
+  },
+  {
+    "bookId": "3006073a-8666-4bfb-a906-4ae020d3e867",
+    "bookAuthor": "Michael E. Gerber",
+    "bookChapters": [
+      "The Entrepreneurial Myth",
+      "The Turn-Key Revolution",
+      "The Business Development Process",
+      "Your Primary Aim",
+      "Your Strategic Objective",
+      "Your Organizational Strategy",
+      "Your Management Strategy",
+      "Your People Strategy",
+      "Your Marketing Strategy",
+      "Your Systems Strategy"
+    ],
+    "bookPublishDate": "1995-09-01T00:00:00",
+    "bookImageUrl": "3006073a-8666-4bfb-a906-4ae020d3e867.png",
+    "bookTitle": "The E-Myth Revisited"
+  },
+  {
+    "bookId": "ac59a512-7e8f-4f57-8fe3-accf5eaf4092",
+    "bookAuthor": "Simon Sinek",
+    "bookChapters": [
+      "Introduction",
+      "There Is No Finite Game",
+      "Just Cause",
+      "Trusting Teams",
+      "Worthy Rivals",
+      "Existential Flexibility",
+      "Courage to Lead",
+      "Conclusion"
+    ],
+    "bookPublishDate": "2019-10-15T00:00:00",
+    "bookImageUrl": "ac59a512-7e8f-4f57-8fe3-accf5eaf4092.png",
+    "bookTitle": "The Infinite Game"
+  },
+  {
+    "bookId": "1fc7dc7c-bc94-4cc0-9091-603854c3c4f4",
+    "bookAuthor": "Benjamin Graham",
+    "bookChapters": [
+      "Introduction: What This Book Expects to Accomplish",
+      "Investment versus Speculation: Results to Be Expected by the Intelligent Investor",
+      "The Investor and Inflation",
+      "A Century of Stock-Market History: The Level of Stock Prices in Early 1972",
+      "General Portfolio Policy: The Defensive Investor",
+      "The Defensive Investor and Common Stocks",
+      "Portfolio Policy for the Enterprising Investor: Negative Approach",
+      "Portfolio Policy for the Enterprising Investor: The Positive Side",
+      "The Investor and Market Fluctuations",
+      "Investing in Investment Funds",
+      "The Investor and His Advisers",
+      "Security Analysis for the Lay Investor: General Approach",
+      "Things to Consider About Per-Share Earnings",
+      "A Comparison of Four Listed Companies",
+      "Stock Selection for the Defensive Investor",
+      "Stock Selection for the Enterprising Investor",
+      "Convertible Issues and Warrants",
+      "Four Extremely Instructive Case Histories",
+      "A Comparison of Eight Pairs of Companies",
+      "Shareholders and Managements: Dividend Policy",
+      "\"Margin of Safety\" as the Central Concept of Investment"
+    ],
+    "bookPublishDate": "1949-01-01T00:00:00",
+    "bookImageUrl": "1fc7dc7c-bc94-4cc0-9091-603854c3c4f4.png",
+    "bookTitle": "The Intelligent Investor"
+  },
+  {
+    "bookId": "e7a33194-b7fa-443a-9364-ac898c086b8c",
+    "bookAuthor": "Mark Manson",
+    "bookChapters": [
+      "Don't Try",
+      "Happiness is a Problem",
+      "You Are Not Special",
+      "The Value of Suffering",
+      "You Are Always Choosing",
+      "You're Wrong About Everything (But So Am I)",
+      "Failure is the Way Forward",
+      "The Importance of Saying No",
+      "And Then You Die"
+    ],
+    "bookPublishDate": "2016-09-13T00:00:00",
+    "bookImageUrl": "e7a33194-b7fa-443a-9364-ac898c086b8c.png",
+    "bookTitle": "The Subtle Art of Not Giving a F*ck"
+  },
+  {
+    "bookId": "4d89c109-f1be-46aa-8bac-20683695e995",
+    "bookAuthor": "Napoleon Hill",
+    "bookChapters": [
+      "Introduction",
+      "Desire: The Starting Point of All Achievement",
+      "Faith: Visualization and Belief in Attainment of Desire",
+      "Autosuggestion: The Medium for Influencing the Subconscious Mind",
+      "Specialized Knowledge: Personal Experiences or Observations",
+      "Imagination: The Workshop of the Mind",
+      "Organized Planning: The Crystallization of Desire into Action",
+      "Decision: The Mastery of Procrastination",
+      "Persistence: The Sustained Effort Needed to Induce Faith",
+      "The Master Mind: The Driving Force",
+      "The Mystery of Sex Transmutation",
+      "The Subconscious Mind: The Connecting Link",
+      "The Brain: A Broadcasting and Receiving Station for Thought",
+      "The Sixth Sense: The Door to the Temple of Wisdom",
+      "How to Outwit the Six Ghosts of Fear"
+    ],
+    "bookPublishDate": "1937-01-01T00:00:00",
+    "bookImageUrl": "4d89c109-f1be-46aa-8bac-20683695e995.png",
+    "bookTitle": "Think and Grow Rich"
+  },
+  {
+    "bookId": "081e61d6-aa4d-4340-a336-dd5ca2dd6847",
+    "bookAuthor": "Vicki Robin, Joe Dominguez",
+    "bookChapters": [
+      "Introduction: The New Game",
+      "Money Ain't What It Used to Be",
+      "Keeping Track of Your Life Energy",
+      "Where Is It All Going?",
+      "How Much Is Enough?",
+      "The Crossover Point",
+      "The Power of Change",
+      "Becoming Financially Independent",
+      "The Wall Chart: Tracking Your Progress",
+      "Conclusion: The Magic of Living Deliberately"
+    ],
+    "bookPublishDate": "1992-01-01T00:00:00",
+    "bookImageUrl": "081e61d6-aa4d-4340-a336-dd5ca2dd6847.png",
+    "bookTitle": "Your Money or Your Life"
+  },
+  {
+    "bookId": "6046acb3-bed9-49da-8ee7-56bc671d3c93",
+    "bookAuthor": "Peter Thiel with Blake Masters",
+    "bookChapters": [
+      "The Challenge of the Future",
+      "Party Like It's 1999",
+      "All Happy Companies Are Different",
+      "The Ideology of Competition",
+      "Last Mover Advantage",
+      "You Are Not a Lottery Ticket",
+      "Follow the Money",
+      "Secrets",
+      "Foundations",
+      "The Mechanics of Mafia",
+      "If You Build It, Will They Come?",
+      "Man and Machine",
+      "Seeing Green",
+      "The Founder's Paradox"
+    ],
+    "bookPublishDate": "2014-09-16T00:00:00",
+    "bookImageUrl": "6046acb3-bed9-49da-8ee7-56bc671d3c93.png",
+    "bookTitle": "Zero to One"
+  }
+]

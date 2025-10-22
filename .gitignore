@@ -11,4 +11,3 @@ scripts/local-scripts/format-book-pictures/renamed-images/*.png
 
 # Caches
 __pycache__
-*export_files*
